@@ -32,7 +32,7 @@ Console.WriteLine((int)Color.Red); // Output: 1
 Console.WriteLine(Color.Red); // Output: Red
 ```
 
-This implementation allows you to define enums with custom behavior, improving modularity and expressiveness in your code. 🌈
+This implementation allows you to define enums with custom behavior, improving modularity and expressiveness in your code. 🚀
 
 ## 🤝 Contributing
 
