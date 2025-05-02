@@ -20,12 +20,10 @@ Smart Enum is a simple and flexible implementation of enums in C#. This approach
 Here's an example of how to use the Smart Enum implementation in your C# project:
 
 ```csharp
-public class Color : SmartEnum<Color>
+public sealed class Color(string name, int value) : SmartEnum<Color>(name, value)
 {
     public static readonly Color Red = new Color("Red", 1);
     public static readonly Color Blue = new Color("Blue", 2);
-
-    private Color(string name, int value) : base(name, value) { }
 }
 
 // Usage
