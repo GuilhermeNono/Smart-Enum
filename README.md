@@ -27,10 +27,9 @@ public sealed class Color(string name, int value) : SmartEnum<Color>(name, value
 }
 
 // Usage
-var redColor = Color.Red;
-Console.WriteLine(redColor.Index); // Output: 1
-Console.WriteLine((int)redColor); // Output: 1
-Console.WriteLine(redColor); // Output: Red
+Console.WriteLine(Color.Red.Index); // Output: 1
+Console.WriteLine((int)Color.Red); // Output: 1
+Console.WriteLine(Color.Red); // Output: Red
 ```
 
 This implementation allows you to define enums with custom behavior, improving modularity and expressiveness in your code. 🌈
